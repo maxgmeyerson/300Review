@@ -10,6 +10,10 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acro
 
 body {
 	line-height: 1;
+	background-color: white;
+	border: 60px;
+	padding: 20px;
+	margin: 40px;
 }
 
 ol, ul {
@@ -28,4 +32,90 @@ blockquote:before, blockquote:after, q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+html {
+	background-color: firebrick;
+}
+
+p {
+	padding-bottom: 15px;
+}
+
+h1{
+	font-size: x-large;
+	font-family: sans-serif;
+	padding-bottom: 5px;
+	font-weight: bolder;
+}
+
+h2{
+	font-size: medium;
+	font-family: sans-serif;
+	padding-bottom: 5px;
+
+}
+
+h6{
+	font-size: x-small;
+	font-family: sans-serif;
+	padding-bottom: 5px;
+	color: gray;
+
+}
+
+.italic {
+	font-style: italic;
+}
+
+#nameMovie {
+	color: red;
+}
+
+#container {
+	float: left;
+	margin-right: 10px;
+	border: 5px;
+	border-color: darkred;
+}
+
+#firstLetter {
+	top: 130px;
+	left: 85px;
+	font-size: 120px;
+	position: absolute;
+	color: white;
+}
+
+#treeOfDeath {
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+#comparison {
+	float: right;
+	top: 500px;
+}
+
+#xerxes {
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#cliffPic {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+
+#quote {
+	margin: 20px;
+}
+
+#footnote {
+	margin-left: auto;
+	margin-right: auto;
+	margin: 10px;
+	font-size: small;
 }
